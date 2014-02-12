@@ -19,6 +19,8 @@
 		10C2AC0118AB922600F6E876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2ABE918AB922600F6E876 /* UIKit.framework */; };
 		10C2AC0918AB922600F6E876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10C2AC0718AB922600F6E876 /* InfoPlist.strings */; };
 		10C2AC0B18AB922600F6E876 /* AutoLayoutAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C2AC0A18AB922600F6E876 /* AutoLayoutAnimationDemoTests.m */; };
+		10C2AC1618AB924A00F6E876 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C2AC1518AB924A00F6E876 /* DemoViewController.m */; };
+		10C2AC1B18ABB64500F6E876 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C2AC1A18ABB64500F6E876 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		10C2AC0618AB922600F6E876 /* AutoLayoutAnimationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutAnimationDemoTests-Info.plist"; sourceTree = "<group>"; };
 		10C2AC0818AB922600F6E876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10C2AC0A18AB922600F6E876 /* AutoLayoutAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutAnimationDemoTests.m; sourceTree = "<group>"; };
+		10C2AC1418AB924A00F6E876 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		10C2AC1518AB924A00F6E876 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		10C2AC1A18ABB64500F6E876 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		10C2ABD918AB922600F6E876 = {
 			isa = PBXGroup;
 			children = (
+				10C2AC1A18ABB64500F6E876 /* README.md */,
 				10C2ABEB18AB922600F6E876 /* AutoLayoutAnimationDemo */,
 				10C2AC0418AB922600F6E876 /* AutoLayoutAnimationDemoTests */,
 				10C2ABE418AB922600F6E876 /* Frameworks */,
@@ -111,6 +117,8 @@
 				10C2ABF518AB922600F6E876 /* AppDelegate.m */,
 				10C2ABF718AB922600F6E876 /* Images.xcassets */,
 				10C2ABEC18AB922600F6E876 /* Supporting Files */,
+				10C2AC1418AB924A00F6E876 /* DemoViewController.h */,
+				10C2AC1518AB924A00F6E876 /* DemoViewController.m */,
 			);
 			path = AutoLayoutAnimationDemo;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C2AC1B18ABB64500F6E876 /* README.md in Resources */,
 				10C2ABF018AB922600F6E876 /* InfoPlist.strings in Resources */,
 				10C2ABF818AB922600F6E876 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C2AC1618AB924A00F6E876 /* DemoViewController.m in Sources */,
 				10C2ABF618AB922600F6E876 /* AppDelegate.m in Sources */,
 				10C2ABF218AB922600F6E876 /* main.m in Sources */,
 			);

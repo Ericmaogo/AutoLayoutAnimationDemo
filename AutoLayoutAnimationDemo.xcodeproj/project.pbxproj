@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10ACB31818ACD96F001EC07B /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ACB31718ACD96F001EC07B /* Demo2ViewController.m */; };
 		10C2ABE618AB922600F6E876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2ABE518AB922600F6E876 /* Foundation.framework */; };
 		10C2ABE818AB922600F6E876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2ABE718AB922600F6E876 /* CoreGraphics.framework */; };
 		10C2ABEA18AB922600F6E876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2ABE918AB922600F6E876 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10ACB31618ACD96F001EC07B /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		10ACB31718ACD96F001EC07B /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		10C2ABE218AB922600F6E876 /* AutoLayoutAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C2ABE518AB922600F6E876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10C2ABE718AB922600F6E876 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				10C2ABEC18AB922600F6E876 /* Supporting Files */,
 				10C2AC1418AB924A00F6E876 /* DemoViewController.h */,
 				10C2AC1518AB924A00F6E876 /* DemoViewController.m */,
+				10ACB31618ACD96F001EC07B /* Demo2ViewController.h */,
+				10ACB31718ACD96F001EC07B /* Demo2ViewController.m */,
 			);
 			path = AutoLayoutAnimationDemo;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			files = (
 				10C2AC1618AB924A00F6E876 /* DemoViewController.m in Sources */,
 				10C2ABF618AB922600F6E876 /* AppDelegate.m in Sources */,
+				10ACB31818ACD96F001EC07B /* Demo2ViewController.m in Sources */,
 				10C2ABF218AB922600F6E876 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +459,7 @@
 				10C2AC1018AB922600F6E876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10C2AC1118AB922600F6E876 /* Build configuration list for PBXNativeTarget "AutoLayoutAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				10C2AC1318AB922600F6E876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

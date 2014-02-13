@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DemoViewController.h"
+#import "Demo2ViewController.h"
 
 @implementation AppDelegate
 
@@ -17,7 +18,8 @@
     // Override point for customization after application launch.
     
     // add just one view controller
-    self.window.rootViewController = [[DemoViewController alloc] initWithNibName:nil bundle:nil];
+ // self.window.rootViewController = [[DemoViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = [[Demo2ViewController alloc] initWithNibName:nil bundle:nil];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

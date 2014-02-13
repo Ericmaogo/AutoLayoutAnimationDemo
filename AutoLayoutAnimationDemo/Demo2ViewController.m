@@ -74,13 +74,12 @@
 #else
     // with animation
     
-    // new view has zero height to begin with
-    NSArray *tempConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[prevView]-space-[newView(==0)]" options:0 metrics:_metrics views:subviews];
+    // to begin with the new view gets zero height and no space to previous view
+    NSArray *tempConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[prevView][newView(==0)]" options:0 metrics:_metrics views:subviews];
 
     [[self view] addConstraints:tempConstraints];
-    [[self view] layoutIfNeeded]; // to ensure zero height is the starting point for the animation
-
     [newView setAlpha:0.0f]; // starting point for fade-in
+    [[self view] layoutIfNeeded]; // to ensure zero height is the starting point for the animation
 
     [UIView animateWithDuration:0.25f animations:^{
         [[self view] removeConstraints:tempConstraints]; // remove zero height constraint
